@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 // markup
 export default function MousuniCard() {
   return (
-    <div className='flex flex-col my-8 md:my-0 backdrop-filter bg-gray-600 bg-opacity-40 backdrop-blur-md rounded-md'>
+    <div className='w-full flex flex-col my-8 md:my-0 backdrop-filter bg-gray-600 bg-opacity-40 backdrop-blur-md shadow-lg rounded-md'>
       <header className='w-full flex items-center justify-between p-4'>
         <Link to='mousuni'>
           <h1 className='text-xl text-center uppercase font-bold'>Save Mousuni</h1>
@@ -20,21 +20,31 @@ export default function MousuniCard() {
           </svg>
         </a>
       </header>
-      <Link to='mousuni'>
-        <div>
-          <StaticImage src='../images/campaigns/mousuni/mousuni-cover.jpeg' alt='Save Mousuni'></StaticImage>
-        </div>
-        <div className='p-4'>
-          <p className=''>
-            Mousuni Islands is a collection of small islands consisting around 17 villages, located near Sagaddwip and
-            Bakkhali.
-          </p>
-          <p className=''>
-            Due to the recent cyclone 'Yaas', combined with the effect of full moon on the same day, most of the
-            villages suffered massive damages due to severe flooding.
-          </p>
-        </div>
-      </Link>
+      <div>
+        <StaticImage src='https://i.imgur.com/iG8XDyi.jpeg' alt='Save Mousuni'></StaticImage>
+      </div>
+      <div className='p-4'>
+        <p className=''>
+          Mousuni Islands is a collection of small islands consisting around 17 villages, located near Sagaddwip and
+          Bakkhali.
+        </p>
+        <p className=''>
+          Due to the recent cyclone 'Yaas', combined with the effect of full moon on the same day, most of the villages
+          suffered massive damages due to severe flooding.
+        </p>
+      </div>
+      <div className='actions flex items-center justify-between'>
+        <Link
+          to='/mousuni'
+          className='flex-1 p-4 font-bold bg-gray-600 text-center backdrop-filter bg-opacity-40 backdrop-blur-md md:rounded-bl-md'>
+          DETAILS
+        </Link>
+        <Link
+          to='/mousuni/contribute'
+          className='flex-1 p-4 font-bold bg-gray-500 text-center backdrop-filter bg-opacity-40 backdrop-blur-md md:rounded-br-md'>
+          CONTRIBUTE
+        </Link>
+      </div>
     </div>
   )
 }
