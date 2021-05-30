@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'relief-campaigns',
+    siteUrl: 'https://reliefcampaigns.gatsbyjs.io',
   },
   plugins: [
     'gatsby-plugin-postcss',
