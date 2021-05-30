@@ -29,12 +29,12 @@ export default function Mousuni() {
     {
       name: 'Sayantan Dey',
       fb: 'https://www.facebook.com/Ishanz23',
-      mobile: '7044311500',
+      mobile: '9748365829',
     },
     {
       name: 'Rahul Das',
       fb: 'https://www.facebook.com/rahul.das.96930',
-      mobile: '7044311500',
+      mobile: '8336908320',
     },
   ]
   return (
