@@ -7,7 +7,7 @@ import CampaignHeader from '../../components/CampaignHeader'
 
 export default function Donate() {
   const sayantan = {
-    image: '../images/campaigns/mousuni/donation/qr-sayantan-phonepe.jpeg',
+    image: 'https://imgur.com/yhwef1l.jpeg',
     name: 'Sayantan Dey',
     mobile: '9748365829',
     bankName: 'DBS Bank',
@@ -16,7 +16,7 @@ export default function Donate() {
     upi: 'deysayantan@dbs',
   }
   const snigdha = {
-    image: '../images/campaigns/mousuni/donation/qr-sayantan-phonepe.jpeg',
+    image: 'https://imgur.com/y8ZcdfS.jpeg',
     name: 'Snigdha Das Ghosh',
     mobile: '8013200128',
     bankName: 'State Bank of India',
@@ -33,12 +33,13 @@ export default function Donate() {
             <p className='w-full my-4 text-center font-bold'>
               You can donate any amount as you wish in the below accounts:
             </p>
-            <div className='details grid md:grid-cols-2 gap-8 place-items-center'>
-              <div className='bank backdrop-filter bg-gray-800 bg-opacity-30 backdrop-blur-md rounded-md'>
+            <div className='details p-8 grid md:grid-cols-2 gap-8 place-items-center'>
+              <div className='bank backdrop-filter bg-gray-800 bg-opacity-30 backdrop-blur-md rounded-lg'>
                 <StaticImage
-                  src='../images/campaigns/mousuni/donation/qr-snigdha-phonepe.jpeg'
+                  src='https://imgur.com/yhwef1l.jpeg'
                   alt='upi-qr'
-                  width={450}></StaticImage>
+                  width={450}
+                  className='rounded-t-lg'></StaticImage>
                 <BankDetails
                   name={snigdha.name}
                   mobile={snigdha.mobile}
@@ -47,11 +48,12 @@ export default function Donate() {
                   ifsc={snigdha.ifsc}
                   upi={snigdha.upi}></BankDetails>
               </div>
-              <div className='bank backdrop-filter bg-gray-800 bg-opacity-30 backdrop-blur-md rounded-md'>
+              <div className='bank backdrop-filter bg-gray-800 bg-opacity-30 backdrop-blur-md rounded-lg'>
                 <StaticImage
-                  src='../images/campaigns/mousuni/donation/qr-sayantan-phonepe.jpeg'
+                  src='https://imgur.com/y8ZcdfS.jpeg'
                   alt='upi-qr'
-                  width={450}></StaticImage>
+                  width={450}
+                  className='rounded-t-lg'></StaticImage>
                 <BankDetails
                   name={sayantan.name}
                   mobile={sayantan.mobile}

@@ -25,7 +25,7 @@ export default function BankDetails({ name, mobile, bankName, accNo, ifsc, upi }
       </div>
       <div className='account flex items-center justify-start'>
         <span className='font-bold pr-4 w-1/2'>UPI Address:</span>
-        <span>{upi}</span>
+        <a href={`upi://pay?pa=${upi}&amp;pn=${(name as string).toUpperCase()} K&amp;cu=INR`}>{upi}</a>
       </div>
     </div>
   )
