@@ -21,6 +21,21 @@ export default function Mousuni() {
       fb: 'https://www.facebook.com/soumoy.chakraborty.1',
       mobile: '7044311500',
     },
+    {
+      name: 'Snigdha Das Ghosh',
+      fb: 'https://www.facebook.com/snigdha.das.5264',
+      mobile: '7044311500',
+    },
+    {
+      name: 'Sayantan Dey',
+      fb: 'https://www.facebook.com/Ishanz23',
+      mobile: '7044311500',
+    },
+    {
+      name: 'Rahul Das',
+      fb: 'https://www.facebook.com/rahul.das.96930',
+      mobile: '7044311500',
+    },
   ]
   return (
     <Layout>
