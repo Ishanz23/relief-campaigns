@@ -14,7 +14,10 @@ export default function CampaignHeader() {
             />
           </svg>
         </Link>
-        <h1 className='text-2xl font-bold uppercase md:text-3xl'>Save Mousuni</h1>
+        <div className='text'>
+          <h1 className='text-2xl font-bold uppercase md:text-3xl'>Save Mousuni</h1>
+          <h2 className='font-light'>Friday, 4th June, 2021</h2>
+        </div>
         <a href='https://goo.gl/maps/jhFoS9c1h8K29dbM9' target='_'>
           <svg xmlns='http://www.w3.org/2000/svg' className='h-6 w-6' viewBox='0 0 20 20' fill='currentColor'>
             <path

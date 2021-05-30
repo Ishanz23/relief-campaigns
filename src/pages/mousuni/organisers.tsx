@@ -4,7 +4,7 @@ import Layout from '../../components/Layout'
 import Organiser from '../../components/Organiser'
 import CampaignHeader from '../../components/CampaignHeader'
 
-export default function Mousuni() {
+export default function Organisers() {
   const organisers = [
     {
       name: 'Sovon Das',
