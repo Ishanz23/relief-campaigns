@@ -9,7 +9,7 @@ export default function MousuniCard({ name }) {
       <header className='w-full flex items-center justify-between p-4'>
         <Link to={`/${name}`}>
           <h1 className='text-xl text-center uppercase font-bold'>Save {name}</h1>
-          <h2 className='font-light text-sm'>Friday, 4th June, 2021</h2>
+          <h2 className='font-light text-sm'>Saturday, 5th June, 2021</h2>
         </Link>
         <a href='https://goo.gl/maps/jhFoS9c1h8K29dbM9' target='_'>
           <svg xmlns='http://www.w3.org/2000/svg' className='h-6 w-6' viewBox='0 0 20 20' fill='currentColor'>

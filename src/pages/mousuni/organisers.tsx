@@ -7,6 +7,11 @@ import CampaignHeader from '../../components/CampaignHeader'
 export default function Organisers() {
   const organisers = [
     {
+      name: 'Barnali Mam',
+      fb: '',
+      mobile: '6291262467',
+    },
+    {
       name: 'Sovon Das',
       fb: 'https://www.facebook.com/sovon.z',
       mobile: '9163353526',
@@ -25,6 +30,16 @@ export default function Organisers() {
       name: 'Snigdha Das Ghosh',
       fb: 'https://www.facebook.com/snigdha.das.5264',
       mobile: '7044311500',
+    },
+    {
+      name: 'Avijit Sinha',
+      fb: 'https://www.facebook.com/avijit.sinha.370',
+      mobile: '7980288929',
+    },
+    {
+      name: 'Saidul Ali',
+      fb: 'https://www.facebook.com/saidul.ali.75',
+      mobile: '9051816879',
     },
     {
       name: 'Sayantan Dey',
@@ -47,8 +62,8 @@ export default function Organisers() {
               Meet the people behind the campaign
             </h1>
             <div className='people grid md:grid-cols-4 gap-8'>
-              {organisers.map((item) => (
-                <Organiser name={item.name} fb={item.fb} mobile={item.mobile} key={item.mobile}></Organiser>
+              {organisers.map((item, i) => (
+                <Organiser name={item.name} fb={item.fb} mobile={item.mobile} key={item.mobile} index={i}></Organiser>
               ))}
             </div>
           </div>

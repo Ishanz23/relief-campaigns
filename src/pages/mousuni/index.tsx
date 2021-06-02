@@ -22,7 +22,9 @@ export default function Mousuni() {
                 <p className='py-4'>
                   Mousuni Islands is a collection of small islands consisting around 17 villages, located near Sagaddwip
                   and Bakkhali. Due to the recent cyclone 'Yaas', combined with the effect of full moon on the same day,
-                  most of the villages suffered massive damages due to severe flooding.
+                  most of the villages suffered massive damages due to severe flooding. The people lost almost all of
+                  their belongings, drinking water is polluted with the salt water from the sea, Stored food got rotten
+                  due the flood. The devastation around the villages is massive.
                 </p>
               </div>
             </div>
@@ -41,6 +43,11 @@ export default function Mousuni() {
                   we have realized that in order to put an effort of recovering a calamitous situation such as this we
                   must have huge amount of funds,your contribution. We implore you in accordance with the urgent
                   requirement that even the slightest donation can be part of this course of action.
+                </p>
+                <p>
+                  We have arranged essential foods like rice, potato, packaged foods; clothes for men and women and
+                  water purification items like alum, permanganate and bleaching powder and will be distributing them on
+                  <strong> Saturday, 6th June, 2021.</strong>
                 </p>
               </div>
             </div>
