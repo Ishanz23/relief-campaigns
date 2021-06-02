@@ -27,6 +27,46 @@ export default function Gallery() {
                 <StaticImage src='https://i.imgur.com/TIpzeUI.jpeg' alt='mousuni' className='roudned-md'></StaticImage>
               </div>
             </div>
+            <div className='images mb-8 w-full'>
+              <h1 className='text-lg font-bold mb-8 w-full text-center'>Preparig Relief items</h1>
+              <div className='images grid md:grid-cols-3 lg:grid-cols-4 gap-4'>
+                <StaticImage
+                  src='https://i.imgur.com/REBATt9.jpg'
+                  alt='mousuni'
+                  className='roudned-md'
+                  height={300}></StaticImage>
+                <StaticImage
+                  src='https://i.imgur.com/kzDkGzE.jpg'
+                  alt='mousuni'
+                  className='roudned-md'
+                  height={300}></StaticImage>
+                <StaticImage
+                  src='https://i.imgur.com/6MEkhtp.jpg'
+                  alt='mousuni'
+                  className='roudned-md'
+                  height={300}></StaticImage>
+                <StaticImage
+                  src='https://i.imgur.com/xrpOlL8.jpg'
+                  alt='mousuni'
+                  className='roudned-md'
+                  height={300}></StaticImage>
+                <StaticImage
+                  src='https://i.imgur.com/pByH5Yu.jpg'
+                  alt='mousuni'
+                  className='roudned-md'
+                  height={300}></StaticImage>
+                <StaticImage
+                  src='https://i.imgur.com/StrTxQ0.jpg'
+                  alt='mousuni'
+                  className='roudned-md'
+                  height={300}></StaticImage>
+                <StaticImage
+                  src='https://i.imgur.com/y9DDirO.jpg'
+                  alt='mousuni'
+                  className='roudned-md'
+                  height={300}></StaticImage>
+              </div>
+            </div>
 
             <div className='w-full'>
               <h1 className='text-lg font-bold mb-8 w-full text-center'>Videos</h1>
